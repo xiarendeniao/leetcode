@@ -1,4 +1,5 @@
 #encoding=utf-8
+#https://leetcode.com/problems/merge-k-sorted-lists
 '''
     mergeTwoLists的升级版，两两归并，最后合成一个
 '''

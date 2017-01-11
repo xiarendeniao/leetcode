@@ -1,4 +1,5 @@
 #encoding=utf-8
+#https://leetcode.com/problems/3sum
 
 '''
     排序后穷举第一个元素,第二和第三个元素从子列表的首尾往中间遍历:>目标值则第三个元素左移、<目标值则第三个元素右移
