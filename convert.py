@@ -21,7 +21,7 @@ class Solution(object):
         :rtype: str
         """
         lens = len(s)
-        if lens <= numRows or numRows <= 2: return s
+        if lens <= numRows or numRows <= 1: return s
         loop = (numRows - 1) * 2
         rt, index = '', 0
         for i in range(numRows):
@@ -45,4 +45,4 @@ if __name__ == '__main__':
     func('PAYPALISHIRING', 3)           #PAHNAPLSIIGYIR
     func('ABCDEFGHIJKLMNOP', 3)         #AEIMBDFHJLNPCGKO
     func('ABCDEFGHIJKLMNOPQRSTUV', 4)   #AGMSBFHLNRTCEIKOQUDJPV
-
+    func('ABC', 2)
